@@ -1,4 +1,5 @@
 class GreenAudioPlayer {
+    // TODO introduce tests at some point
     constructor(player, options) {
         this.audioPlayer = typeof player === 'string' ? document.querySelector(player) : player;
         const opts = options || {};
