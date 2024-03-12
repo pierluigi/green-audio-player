@@ -1,4 +1,4 @@
-# Green Audio Player
+# Pierlo's Green Audio Player
 
 ![npm](https://img.shields.io/npm/v/green-audio-player.svg)
 ![GitHub](https://img.shields.io/github/license/greghub/green-audio-player.svg)
