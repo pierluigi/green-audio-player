@@ -4,6 +4,8 @@ jobs:
   call-api: 
     runs-on: ubuntu-latest
     steps:
+      - name: Log event
+        run: echo "${{ toJson(github) }}"
       - name: Call PR Generation API
         uses: fjogeleit/http-request-action@v1
         with:
